@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VideoMap action creators Should fail to load videos 1`] = `
+Array [
+  Object {
+    "type": "LOAD_VIDEOS_REQUEST",
+  },
+  Object {
+    "payload": Object {
+      "error": "Bad Request",
+    },
+    "type": "LOAD_VIDEOS_ERROR",
+  },
+]
+`;
+
+exports[`VideoMap action creators Should successfully load videos 1`] = `
+Array [
+  Object {
+    "type": "LOAD_VIDEOS_REQUEST",
+  },
+  Object {
+    "payload": Object {
+      "isNextPage": false,
+      "videosList": Object {
+        "etag": "\\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/P0Q5iJsjiJ2zOzcrxDcb85guSJ8\\"",
+        "items": Array [
+          Object {
+            "etag": "\\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/ModJNYQuE9VfOulIBgXRd127_Ew\\"",
+            "id": Object {
+              "kind": "youtube#video",
+              "videoId": "ei4r_Bs3cek",
+            },
+            "kind": "youtube#searchResult",
+            "snippet": Object {
+              "channelId": "UCVo06dBGK9VBBhq15wJxZHQ",
+              "channelTitle": "Chris Kincade Media",
+              "description": "Video/Edit: Chris Kincade FINE ART PRINTS www.ChrisKincade.com GET 25% OFF THE ENTIRE SITE! USE CODE “2018” AT CHECKOUT! Instagram: @Chris.",
+              "liveBroadcastContent": "none",
+              "publishedAt": "2018-04-26T07:43:02.000Z",
+              "thumbnails": Object {
+                "default": Object {
+                  "height": 90,
+                  "url": "https://i.ytimg.com/vi/ei4r_Bs3cek/default.jpg",
+                  "width": 120,
+                },
+                "high": Object {
+                  "height": 360,
+                  "url": "https://i.ytimg.com/vi/ei4r_Bs3cek/hqdefault.jpg",
+                  "width": 480,
+                },
+                "medium": Object {
+                  "height": 180,
+                  "url": "https://i.ytimg.com/vi/ei4r_Bs3cek/mqdefault.jpg",
+                  "width": 320,
+                },
+              },
+              "title": "#JEFFHUBBARD - #BODYBOARDING #PIPELINE SPECIALIST $$",
+            },
+          },
+          Object {
+            "etag": "\\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/Cizv5T8I6oJtAxERYXtftJ0L3xg\\"",
+            "id": Object {
+              "kind": "youtube#video",
+              "videoId": "D6zek91qfoM",
+            },
+            "kind": "youtube#searchResult",
+            "snippet": Object {
+              "channelId": "UCVo06dBGK9VBBhq15wJxZHQ",
+              "channelTitle": "Chris Kincade Media",
+              "description": "When Pipe gets too big, it's always the 662 Ride Shop boys that tackle it anyways. Here's some clips from January 22nd of Andre Botha, Trevor Kam and ...",
+              "liveBroadcastContent": "none",
+              "publishedAt": "2015-02-02T05:51:33.000Z",
+              "thumbnails": Object {
+                "default": Object {
+                  "height": 90,
+                  "url": "https://i.ytimg.com/vi/D6zek91qfoM/default.jpg",
+                  "width": 120,
+                },
+                "high": Object {
+                  "height": 360,
+                  "url": "https://i.ytimg.com/vi/D6zek91qfoM/hqdefault.jpg",
+                  "width": 480,
+                },
+                "medium": Object {
+                  "height": 180,
+                  "url": "https://i.ytimg.com/vi/D6zek91qfoM/mqdefault.jpg",
+                  "width": 320,
+                },
+              },
+              "title": "#662 Boys take XL #Pipeline - #Bodyboarding #Hawaii",
+            },
+          },
+        ],
+        "kind": "youtube#searchListResponse",
+        "nextPageToken": "CAIQAA",
+        "pageInfo": Object {
+          "resultsPerPage": 2,
+          "totalResults": 1494,
+        },
+        "regionCode": "EG",
+      },
+    },
+    "type": "LOAD_VIDEOS_SUCCESS",
+  },
+]
+`;
